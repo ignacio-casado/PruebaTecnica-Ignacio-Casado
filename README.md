@@ -1,60 +1,58 @@
-📘 Documentación del Sistema: Roles, Persistencia Y Despliegue
-Este proyecto utiliza una arquitectura basada en Servicios y Repositorios, gestionando la persistencia de datos mediante Entity Framework Core con el enfoque Code First.
+# Sistema de Gestión Académica - Prueba Técnica
 
-1. Gestión de Roles y Permisos
-El sistema implementa un control de acceso basado en lógica de negocio (RBAC simple) donde las acciones están restringidas según el RolId del usuario que ejecuta la petición:
+Este proyecto es una Web API desarrollada en .NET 8 que gestiona Usuarios, Roles e Inscripciones a Cursos, siguiendo una arquitectura de capas (Controllers, Services, Repositories).
 
-Director (RolId: 1): Es el administrador del sistema. Único usuario con permisos para:
+---
 
-Dar de alta nuevos usuarios (Profesores y Alumnos).
+## 🛠️ Configuración de Persistencia (Entity Framework Code First)
 
-Crear nuevos Cursos.
+El proyecto utiliza el enfoque **Code First**, lo que significa que la base de datos se genera y actualiza a partir del código C#.
 
-Crear nuevos Roles.
+### Pasos para replicar la Base de Datos:
 
-Inscribir alumnos en cursos.
+1. **Configurar la cadena de conexión**: 
+   Verifica el archivo `appsettings.json` y asegúrate de que la propiedad `DefaultConnection` apunte a tu servidor local de SQL Server. Debes ingresar el sevidor donde lo quieras levantar en Server= y en Database= tu base donde quieras los datos. 
+<img width="1275" height="77" alt="image" src="https://github.com/user-attachments/assets/74b33cb8-29fb-48a7-a207-a20586e27eaa" />
 
-Profesor (RolId: 2): Tiene permisos operativos. Puede:
+2. **Ejecutar Migraciones**:
+   Abre la "Consola de Administrador de Paquetes" en Visual Studio (Herramientas > Administrador de Paquetes NuGet) y ejecuta:
+   
+   > Add-Migration InitialCreate
+   > Update-Database
 
-Consultar listados de alumnos.
+Esto creará automáticamente las tablas, relaciones e índices únicos definidos en el `AppDbContext`.
 
-Inscribir alumnos en sus respectivos cursos.
+---
 
-Alumno (RolId: 3): Es el sujeto de las inscripciones. No posee permisos de edición o creación sobre otros recursos.
+## 🔐 Lógica de Roles y Permisos
 
-Nota Técnica: Las validaciones de seguridad se realizan a nivel de Capa de Servicio, lanzando excepciones de tipo UnauthorizedAccessException o retornando objetos DefaultResponse con estado 403 Forbidden cuando el idRol proporcionado en los encabezados no cumple con los requisitos.
+El sistema implementa un control de acceso basado en el `RolId` enviado en los encabezados (`Headers`) de las peticiones HTTP.
 
-2. Configuración de Entity Framework (Code First)
-La base de datos se genera automáticamente a partir de las clases del modelo. La configuración se centraliza en el AppDbContext.
+| Rol | ID | Permisos Clave |
+| :--- | :--- | :--- |
+| **Director** | 1 | Alta de usuarios, creación de cursos, creación de roles, inscripciones. |
+| **Profesor** | 2 | Consulta de alumnos e inscripción de alumnos a cursos. |
+| **Alumno** | 3 | Solo lectura de sus propios datos (Sujeto a inscripciones). |
 
-Relaciones Implementadas:
-Muchos a Muchos (Alumnos ↔ Cursos): Implementada mediante una propiedad de colección en ambas entidades. Entity Framework genera automáticamente la tabla intermedia de inscripciones.
+### Reglas de Negocio Implementadas:
+- **Seguridad en Servicios**: Los métodos de creación validan que el `idRol` del ejecutor sea el autorizado, de lo contrario lanzan una `UnauthorizedAccessException` (403 Forbidden).
+- **Validación de Inscripción**: Solo se permite inscribir a usuarios cuyo `RolId` sea exactamente **3 (Alumno)**.
+- **Identificación por Documento**: Al crear un curso, el sistema solicita el **Número de Documento del Profesor** en lugar de su ID interno, validando que el documento exista y pertenezca efectivamente a un docente.
 
-Uno a Muchos (Rol ↔ Usuarios): Cada usuario posee un único rol, mientras que un rol puede pertenecer a múltiples usuarios.
+---
 
-Uno a Muchos (Profesor ↔ Cursos): Un curso tiene un profesor titular asignado mediante su ProfesorId.
+## 🚀 Estructura del Proyecto
 
-Pasos para la Configuración Inicial:
-Si acabas de clonar el repositorio, sigue estos pasos en la Consola de Administrador de Paquetes (NuGet):
+- **Controllers**: Gestionan las peticiones HTTP y traducen excepciones en códigos de estado (200, 201, 400, 403, 404, 500).
+- **Services**: Contienen toda la lógica de negocio y validaciones de seguridad.
+- **Repositories**: Encargados de la comunicación con la base de datos utilizando LINQ y Eager Loading (`.Include()`) para cargar relaciones Muchos a Muchos.
+- **DTOs**: Objetos de transferencia de datos para desacoplar las entidades de la base de datos de las respuestas de la API.
 
-Crear la Migración: Genera el código necesario para crear las tablas basadas en los modelos actuales.
+---
 
-PowerShell
-Add-Migration InitialCreate
-Actualizar la Base de Datos: Aplica las migraciones a tu instancia local de SQL Server.
+## 📌 Notas de Uso en Swagger
 
-PowerShell
-Update-Database
-Restricciones de Integridad:
-En el método OnModelCreating, se han configurado reglas de validación adicionales para asegurar la consistencia de los datos:
-
-Índices Únicos: El nombre de los Roles y el Email de los Usuarios están marcados como únicos para evitar duplicados.
-
-Borrado en Cascada: Configurado para proteger la integridad referencial entre cursos e inscripciones.
-
-3. Ejecución y Pruebas
-Una vez aplicada la migración, puedes utilizar Swagger para probar los endpoints:
-
-Asegúrate de enviar el idRol correcto en el Header de las peticiones protegidas.
-
-Para crear un curso, primero asegúrate de tener un usuario con Rol 2 (Profesor) creado en la base de datos.
+Para probar los endpoints protegidos:
+1. Localiza el campo **idRol** en el Header de la petición.
+2. Ingresa `1` para simular acciones de Director o `2` para Profesor.
+3. El sistema validará automáticamente si tienes el permiso para realizar dicha acción.
