@@ -1,0 +1,153 @@
+[
+  {
+    "ContainingType": "PruebaTecnicaIgnacioCasado.Controllers.CursoController",
+    "Method": "Crear",
+    "RelativePath": "api/Curso/Alta",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "PruebaTecnicaIgnacioCasado.Models.DTOs.Request.CursoNuevoRequest",
+        "IsRequired": true
+      },
+      {
+        "Name": "idRol",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PruebaTecnicaIgnacioCasado.Controllers.CursoController",
+    "Method": "ListarAlumnosInscriptos",
+    "RelativePath": "api/Curso/ListarAlumnosPorCurso",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idRol",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "idCurso",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PruebaTecnicaIgnacioCasado.Controllers.RolController",
+    "Method": "AgregarRol",
+    "RelativePath": "api/Rol/Agregar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idRol",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "request",
+        "Type": "PruebaTecnicaIgnacioCasado.Models.DTOs.Request.NuevoRolRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PruebaTecnicaIgnacioCasado.Controllers.RolController",
+    "Method": "Listado",
+    "RelativePath": "api/Rol/Listado",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PruebaTecnicaIgnacioCasado.Controllers.UsuarioController",
+    "Method": "Alta",
+    "RelativePath": "api/Usuario/Alta",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "PruebaTecnicaIgnacioCasado.Models.DTOs.Request.UsuarioNuevoRequest",
+        "IsRequired": true
+      },
+      {
+        "Name": "ejecutorId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "PruebaTecnicaIgnacioCasado.Models.DTOs.Response.UsuarioNuevoResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PruebaTecnicaIgnacioCasado.Controllers.UsuarioController",
+    "Method": "Inscribir",
+    "RelativePath": "api/Usuario/InscribirACurso",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "PruebaTecnicaIgnacioCasado.Models.DTOs.Request.InscripcionCursoRequest",
+        "IsRequired": true
+      },
+      {
+        "Name": "ejecutorRolId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PruebaTecnicaIgnacioCasado.Controllers.UsuarioController",
+    "Method": "ListarTodos",
+    "RelativePath": "api/Usuario/ListadoCompleto",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Rol",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[PruebaTecnicaIgnacioCasado.Models.DTOs.Response.GetAllUsuarios, PruebaTecnicaIgnacioCasado, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]

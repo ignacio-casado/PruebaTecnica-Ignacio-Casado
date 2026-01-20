@@ -1,0 +1,565 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Nachin\\source\\repos\\PruebaTecnicaIgnacioCasado\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{57771710-FAF1-4D93-AFF4-15BC2BDB8671}|PruebaTecnicaIgnacioCasado.csproj|c:\\users\\nachin\\source\\repos\\pruebatecnicaignaciocasado\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{57771710-FAF1-4D93-AFF4-15BC2BDB8671}|PruebaTecnicaIgnacioCasado.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57771710-FAF1-4D93-AFF4-15BC2BDB8671}|PruebaTecnicaIgnacioCasado.csproj|c:\\users\\nachin\\source\\repos\\pruebatecnicaignaciocasado\\models\\dtos\\response\\getallusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57771710-FAF1-4D93-AFF4-15BC2BDB8671}|PruebaTecnicaIgnacioCasado.csproj|solutionrelative:models\\dtos\\response\\getallusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57771710-FAF1-4D93-AFF4-15BC2BDB8671}|PruebaTecnicaIgnacioCasado.csproj|c:\\users\\nachin\\source\\repos\\pruebatecnicaignaciocasado\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57771710-FAF1-4D93-AFF4-15BC2BDB8671}|PruebaTecnicaIgnacioCasado.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57771710-FAF1-4D93-AFF4-15BC2BDB8671}|PruebaTecnicaIgnacioCasado.csproj|c:\\users\\nachin\\source\\repos\\pruebatecnicaignaciocasado\\services\\usuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57771710-FAF1-4D93-AFF4-15BC2BDB8671}|PruebaTecnicaIgnacioCasado.csproj|solutionrelative:services\\usuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57771710-FAF1-4D93-AFF4-15BC2BDB8671}|PruebaTecnicaIgnacioCasado.csproj|c:\\users\\nachin\\source\\repos\\pruebatecnicaignaciocasado\\services\\rolservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57771710-FAF1-4D93-AFF4-15BC2BDB8671}|PruebaTecnicaIgnacioCasado.csproj|solutionrelative:services\\rolservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57771710-FAF1-4D93-AFF4-15BC2BDB8671}|PruebaTecnicaIgnacioCasado.csproj|c:\\users\\nachin\\source\\repos\\pruebatecnicaignaciocasado\\services\\cursoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57771710-FAF1-4D93-AFF4-15BC2BDB8671}|PruebaTecnicaIgnacioCasado.csproj|solutionrelative:services\\cursoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57771710-FAF1-4D93-AFF4-15BC2BDB8671}|PruebaTecnicaIgnacioCasado.csproj|c:\\users\\nachin\\source\\repos\\pruebatecnicaignaciocasado\\services\\interfaces\\iusuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57771710-FAF1-4D93-AFF4-15BC2BDB8671}|PruebaTecnicaIgnacioCasado.csproj|solutionrelative:services\\interfaces\\iusuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57771710-FAF1-4D93-AFF4-15BC2BDB8671}|PruebaTecnicaIgnacioCasado.csproj|c:\\users\\nachin\\source\\repos\\pruebatecnicaignaciocasado\\services\\interfaces\\irolservicecs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57771710-FAF1-4D93-AFF4-15BC2BDB8671}|PruebaTecnicaIgnacioCasado.csproj|solutionrelative:services\\interfaces\\irolservicecs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57771710-FAF1-4D93-AFF4-15BC2BDB8671}|PruebaTecnicaIgnacioCasado.csproj|c:\\users\\nachin\\source\\repos\\pruebatecnicaignaciocasado\\services\\interfaces\\icursoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57771710-FAF1-4D93-AFF4-15BC2BDB8671}|PruebaTecnicaIgnacioCasado.csproj|solutionrelative:services\\interfaces\\icursoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57771710-FAF1-4D93-AFF4-15BC2BDB8671}|PruebaTecnicaIgnacioCasado.csproj|c:\\users\\nachin\\source\\repos\\pruebatecnicaignaciocasado\\repositories\\rolrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57771710-FAF1-4D93-AFF4-15BC2BDB8671}|PruebaTecnicaIgnacioCasado.csproj|solutionrelative:repositories\\rolrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57771710-FAF1-4D93-AFF4-15BC2BDB8671}|PruebaTecnicaIgnacioCasado.csproj|c:\\users\\nachin\\source\\repos\\pruebatecnicaignaciocasado\\repositories\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57771710-FAF1-4D93-AFF4-15BC2BDB8671}|PruebaTecnicaIgnacioCasado.csproj|solutionrelative:repositories\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57771710-FAF1-4D93-AFF4-15BC2BDB8671}|PruebaTecnicaIgnacioCasado.csproj|c:\\users\\nachin\\source\\repos\\pruebatecnicaignaciocasado\\repositories\\cursorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57771710-FAF1-4D93-AFF4-15BC2BDB8671}|PruebaTecnicaIgnacioCasado.csproj|solutionrelative:repositories\\cursorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57771710-FAF1-4D93-AFF4-15BC2BDB8671}|PruebaTecnicaIgnacioCasado.csproj|c:\\users\\nachin\\source\\repos\\pruebatecnicaignaciocasado\\repositories\\interfaces\\irolrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57771710-FAF1-4D93-AFF4-15BC2BDB8671}|PruebaTecnicaIgnacioCasado.csproj|solutionrelative:repositories\\interfaces\\irolrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57771710-FAF1-4D93-AFF4-15BC2BDB8671}|PruebaTecnicaIgnacioCasado.csproj|c:\\users\\nachin\\source\\repos\\pruebatecnicaignaciocasado\\repositories\\interfaces\\icursorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57771710-FAF1-4D93-AFF4-15BC2BDB8671}|PruebaTecnicaIgnacioCasado.csproj|solutionrelative:repositories\\interfaces\\icursorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57771710-FAF1-4D93-AFF4-15BC2BDB8671}|PruebaTecnicaIgnacioCasado.csproj|c:\\users\\nachin\\source\\repos\\pruebatecnicaignaciocasado\\models\\entities\\curso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57771710-FAF1-4D93-AFF4-15BC2BDB8671}|PruebaTecnicaIgnacioCasado.csproj|solutionrelative:models\\entities\\curso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57771710-FAF1-4D93-AFF4-15BC2BDB8671}|PruebaTecnicaIgnacioCasado.csproj|c:\\users\\nachin\\source\\repos\\pruebatecnicaignaciocasado\\models\\entities\\rol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57771710-FAF1-4D93-AFF4-15BC2BDB8671}|PruebaTecnicaIgnacioCasado.csproj|solutionrelative:models\\entities\\rol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57771710-FAF1-4D93-AFF4-15BC2BDB8671}|PruebaTecnicaIgnacioCasado.csproj|c:\\users\\nachin\\source\\repos\\pruebatecnicaignaciocasado\\models\\entities\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57771710-FAF1-4D93-AFF4-15BC2BDB8671}|PruebaTecnicaIgnacioCasado.csproj|solutionrelative:models\\entities\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57771710-FAF1-4D93-AFF4-15BC2BDB8671}|PruebaTecnicaIgnacioCasado.csproj|c:\\users\\nachin\\source\\repos\\pruebatecnicaignaciocasado\\models\\dtos\\response\\usuarionuevoresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57771710-FAF1-4D93-AFF4-15BC2BDB8671}|PruebaTecnicaIgnacioCasado.csproj|solutionrelative:models\\dtos\\response\\usuarionuevoresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57771710-FAF1-4D93-AFF4-15BC2BDB8671}|PruebaTecnicaIgnacioCasado.csproj|c:\\users\\nachin\\source\\repos\\pruebatecnicaignaciocasado\\models\\dtos\\response\\defaultresponse\\defaultresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57771710-FAF1-4D93-AFF4-15BC2BDB8671}|PruebaTecnicaIgnacioCasado.csproj|solutionrelative:models\\dtos\\response\\defaultresponse\\defaultresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57771710-FAF1-4D93-AFF4-15BC2BDB8671}|PruebaTecnicaIgnacioCasado.csproj|c:\\users\\nachin\\source\\repos\\pruebatecnicaignaciocasado\\models\\dtos\\request\\usuarionuevorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57771710-FAF1-4D93-AFF4-15BC2BDB8671}|PruebaTecnicaIgnacioCasado.csproj|solutionrelative:models\\dtos\\request\\usuarionuevorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57771710-FAF1-4D93-AFF4-15BC2BDB8671}|PruebaTecnicaIgnacioCasado.csproj|c:\\users\\nachin\\source\\repos\\pruebatecnicaignaciocasado\\models\\dtos\\request\\nuevorolrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57771710-FAF1-4D93-AFF4-15BC2BDB8671}|PruebaTecnicaIgnacioCasado.csproj|solutionrelative:models\\dtos\\request\\nuevorolrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57771710-FAF1-4D93-AFF4-15BC2BDB8671}|PruebaTecnicaIgnacioCasado.csproj|c:\\users\\nachin\\source\\repos\\pruebatecnicaignaciocasado\\models\\dtos\\request\\inscripcioncursorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57771710-FAF1-4D93-AFF4-15BC2BDB8671}|PruebaTecnicaIgnacioCasado.csproj|solutionrelative:models\\dtos\\request\\inscripcioncursorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57771710-FAF1-4D93-AFF4-15BC2BDB8671}|PruebaTecnicaIgnacioCasado.csproj|c:\\users\\nachin\\source\\repos\\pruebatecnicaignaciocasado\\models\\dtos\\request\\cursonuevorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57771710-FAF1-4D93-AFF4-15BC2BDB8671}|PruebaTecnicaIgnacioCasado.csproj|solutionrelative:models\\dtos\\request\\cursonuevorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57771710-FAF1-4D93-AFF4-15BC2BDB8671}|PruebaTecnicaIgnacioCasado.csproj|c:\\users\\nachin\\source\\repos\\pruebatecnicaignaciocasado\\controllers\\cursocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57771710-FAF1-4D93-AFF4-15BC2BDB8671}|PruebaTecnicaIgnacioCasado.csproj|solutionrelative:controllers\\cursocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57771710-FAF1-4D93-AFF4-15BC2BDB8671}|PruebaTecnicaIgnacioCasado.csproj|c:\\users\\nachin\\source\\repos\\pruebatecnicaignaciocasado\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57771710-FAF1-4D93-AFF4-15BC2BDB8671}|PruebaTecnicaIgnacioCasado.csproj|solutionrelative:controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57771710-FAF1-4D93-AFF4-15BC2BDB8671}|PruebaTecnicaIgnacioCasado.csproj|c:\\users\\nachin\\source\\repos\\pruebatecnicaignaciocasado\\controllers\\rolcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57771710-FAF1-4D93-AFF4-15BC2BDB8671}|PruebaTecnicaIgnacioCasado.csproj|solutionrelative:controllers\\rolcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57771710-FAF1-4D93-AFF4-15BC2BDB8671}|PruebaTecnicaIgnacioCasado.csproj|c:\\users\\nachin\\source\\repos\\pruebatecnicaignaciocasado\\repositories\\interfaces\\iusuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57771710-FAF1-4D93-AFF4-15BC2BDB8671}|PruebaTecnicaIgnacioCasado.csproj|solutionrelative:repositories\\interfaces\\iusuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57771710-FAF1-4D93-AFF4-15BC2BDB8671}|PruebaTecnicaIgnacioCasado.csproj|c:\\users\\nachin\\source\\repos\\pruebatecnicaignaciocasado\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{57771710-FAF1-4D93-AFF4-15BC2BDB8671}|PruebaTecnicaIgnacioCasado.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57771710-FAF1-4D93-AFF4-15BC2BDB8671}|PruebaTecnicaIgnacioCasado.csproj|c:\\users\\nachin\\source\\repos\\pruebatecnicaignaciocasado\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57771710-FAF1-4D93-AFF4-15BC2BDB8671}|PruebaTecnicaIgnacioCasado.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Nachin\\source\\repos\\PruebaTecnicaIgnacioCasado\\Migrations\\20260120001341_MigracionInicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20260120001341_MigracionInicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57771710-FAF1-4D93-AFF4-15BC2BDB8671}|PruebaTecnicaIgnacioCasado.csproj|c:\\users\\nachin\\source\\repos\\pruebatecnicaignaciocasado\\pruebatecnicaignaciocasado.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{57771710-FAF1-4D93-AFF4-15BC2BDB8671}|PruebaTecnicaIgnacioCasado.csproj|solutionrelative:pruebatecnicaignaciocasado.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 269,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IRolServicecs.cs",
+              "DocumentMoniker": "C:\\Users\\Nachin\\source\\repos\\PruebaTecnicaIgnacioCasado\\Services\\Interfaces\\IRolServicecs.cs",
+              "RelativeDocumentMoniker": "Services\\Interfaces\\IRolServicecs.cs",
+              "ToolTip": "C:\\Users\\Nachin\\source\\repos\\PruebaTecnicaIgnacioCasado\\Services\\Interfaces\\IRolServicecs.cs",
+              "RelativeToolTip": "Services\\Interfaces\\IRolServicecs.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T13:16:10.492Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IUsuarioService.cs",
+              "DocumentMoniker": "C:\\Users\\Nachin\\source\\repos\\PruebaTecnicaIgnacioCasado\\Services\\Interfaces\\IUsuarioService.cs",
+              "RelativeDocumentMoniker": "Services\\Interfaces\\IUsuarioService.cs",
+              "ToolTip": "C:\\Users\\Nachin\\source\\repos\\PruebaTecnicaIgnacioCasado\\Services\\Interfaces\\IUsuarioService.cs",
+              "RelativeToolTip": "Services\\Interfaces\\IUsuarioService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-19T00:55:40.989Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Nachin\\source\\repos\\PruebaTecnicaIgnacioCasado\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\Nachin\\source\\repos\\PruebaTecnicaIgnacioCasado\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-01-19T00:39:01.255Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UsuarioService.cs",
+              "DocumentMoniker": "C:\\Users\\Nachin\\source\\repos\\PruebaTecnicaIgnacioCasado\\Services\\UsuarioService.cs",
+              "RelativeDocumentMoniker": "Services\\UsuarioService.cs",
+              "ToolTip": "C:\\Users\\Nachin\\source\\repos\\PruebaTecnicaIgnacioCasado\\Services\\UsuarioService.cs",
+              "RelativeToolTip": "Services\\UsuarioService.cs",
+              "ViewState": "AgIAAF8AAAAAAAAAAAAwwBMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-19T22:47:58.885Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RolService.cs",
+              "DocumentMoniker": "C:\\Users\\Nachin\\source\\repos\\PruebaTecnicaIgnacioCasado\\Services\\RolService.cs",
+              "RelativeDocumentMoniker": "Services\\RolService.cs",
+              "ToolTip": "C:\\Users\\Nachin\\source\\repos\\PruebaTecnicaIgnacioCasado\\Services\\RolService.cs",
+              "RelativeToolTip": "Services\\RolService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAawCUAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T13:20:50.563Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CursoService.cs",
+              "DocumentMoniker": "C:\\Users\\Nachin\\source\\repos\\PruebaTecnicaIgnacioCasado\\Services\\CursoService.cs",
+              "RelativeDocumentMoniker": "Services\\CursoService.cs",
+              "ToolTip": "C:\\Users\\Nachin\\source\\repos\\PruebaTecnicaIgnacioCasado\\Services\\CursoService.cs",
+              "RelativeToolTip": "Services\\CursoService.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAowCwAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T12:20:06.846Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Nachin\\source\\repos\\PruebaTecnicaIgnacioCasado\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Nachin\\source\\repos\\PruebaTecnicaIgnacioCasado\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-19T00:21:18.676Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ICursoService.cs",
+              "DocumentMoniker": "C:\\Users\\Nachin\\source\\repos\\PruebaTecnicaIgnacioCasado\\Services\\Interfaces\\ICursoService.cs",
+              "RelativeDocumentMoniker": "Services\\Interfaces\\ICursoService.cs",
+              "ToolTip": "C:\\Users\\Nachin\\source\\repos\\PruebaTecnicaIgnacioCasado\\Services\\Interfaces\\ICursoService.cs",
+              "RelativeToolTip": "Services\\Interfaces\\ICursoService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAkAAABfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T11:46:34.725Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "RolRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Nachin\\source\\repos\\PruebaTecnicaIgnacioCasado\\Repositories\\RolRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\RolRepository.cs",
+              "ToolTip": "C:\\Users\\Nachin\\source\\repos\\PruebaTecnicaIgnacioCasado\\Repositories\\RolRepository.cs",
+              "RelativeToolTip": "Repositories\\RolRepository.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABoAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-19T00:51:25.253Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UsuarioRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Nachin\\source\\repos\\PruebaTecnicaIgnacioCasado\\Repositories\\UsuarioRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\UsuarioRepository.cs",
+              "ToolTip": "C:\\Users\\Nachin\\source\\repos\\PruebaTecnicaIgnacioCasado\\Repositories\\UsuarioRepository.cs",
+              "RelativeToolTip": "Repositories\\UsuarioRepository.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAA4wEkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-19T00:49:17.566Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CursoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Nachin\\source\\repos\\PruebaTecnicaIgnacioCasado\\Repositories\\CursoRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\CursoRepository.cs",
+              "ToolTip": "C:\\Users\\Nachin\\source\\repos\\PruebaTecnicaIgnacioCasado\\Repositories\\CursoRepository.cs",
+              "RelativeToolTip": "Repositories\\CursoRepository.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAA9wBwAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-19T00:53:01.768Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IRolRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Nachin\\source\\repos\\PruebaTecnicaIgnacioCasado\\Repositories\\Interfaces\\IRolRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Interfaces\\IRolRepository.cs",
+              "ToolTip": "C:\\Users\\Nachin\\source\\repos\\PruebaTecnicaIgnacioCasado\\Repositories\\Interfaces\\IRolRepository.cs",
+              "RelativeToolTip": "Repositories\\Interfaces\\IRolRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-19T00:50:55.369Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ICursoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Nachin\\source\\repos\\PruebaTecnicaIgnacioCasado\\Repositories\\Interfaces\\ICursoRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Interfaces\\ICursoRepository.cs",
+              "ToolTip": "C:\\Users\\Nachin\\source\\repos\\PruebaTecnicaIgnacioCasado\\Repositories\\Interfaces\\ICursoRepository.cs",
+              "RelativeToolTip": "Repositories\\Interfaces\\ICursoRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-19T00:52:36.515Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Curso.cs",
+              "DocumentMoniker": "C:\\Users\\Nachin\\source\\repos\\PruebaTecnicaIgnacioCasado\\Models\\Entities\\Curso.cs",
+              "RelativeDocumentMoniker": "Models\\Entities\\Curso.cs",
+              "ToolTip": "C:\\Users\\Nachin\\source\\repos\\PruebaTecnicaIgnacioCasado\\Models\\Entities\\Curso.cs",
+              "RelativeToolTip": "Models\\Entities\\Curso.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-19T00:30:02.138Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Rol.cs",
+              "DocumentMoniker": "C:\\Users\\Nachin\\source\\repos\\PruebaTecnicaIgnacioCasado\\Models\\Entities\\Rol.cs",
+              "RelativeDocumentMoniker": "Models\\Entities\\Rol.cs",
+              "ToolTip": "C:\\Users\\Nachin\\source\\repos\\PruebaTecnicaIgnacioCasado\\Models\\Entities\\Rol.cs",
+              "RelativeToolTip": "Models\\Entities\\Rol.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-19T00:28:22.575Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\Nachin\\source\\repos\\PruebaTecnicaIgnacioCasado\\Models\\Entities\\Usuario.cs",
+              "RelativeDocumentMoniker": "Models\\Entities\\Usuario.cs",
+              "ToolTip": "C:\\Users\\Nachin\\source\\repos\\PruebaTecnicaIgnacioCasado\\Models\\Entities\\Usuario.cs",
+              "RelativeToolTip": "Models\\Entities\\Usuario.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAA1wA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-19T00:28:57.165Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "UsuarioNuevoResponse.cs",
+              "DocumentMoniker": "C:\\Users\\Nachin\\source\\repos\\PruebaTecnicaIgnacioCasado\\Models\\DTOs\\Response\\UsuarioNuevoResponse.cs",
+              "RelativeDocumentMoniker": "Models\\DTOs\\Response\\UsuarioNuevoResponse.cs",
+              "ToolTip": "C:\\Users\\Nachin\\source\\repos\\PruebaTecnicaIgnacioCasado\\Models\\DTOs\\Response\\UsuarioNuevoResponse.cs",
+              "RelativeToolTip": "Models\\DTOs\\Response\\UsuarioNuevoResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-19T22:40:03.717Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "DefaultResponse.cs",
+              "DocumentMoniker": "C:\\Users\\Nachin\\source\\repos\\PruebaTecnicaIgnacioCasado\\Models\\DTOs\\Response\\DefaultResponse\\DefaultResponse.cs",
+              "RelativeDocumentMoniker": "Models\\DTOs\\Response\\DefaultResponse\\DefaultResponse.cs",
+              "ToolTip": "C:\\Users\\Nachin\\source\\repos\\PruebaTecnicaIgnacioCasado\\Models\\DTOs\\Response\\DefaultResponse\\DefaultResponse.cs",
+              "RelativeToolTip": "Models\\DTOs\\Response\\DefaultResponse\\DefaultResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T11:31:31.78Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "UsuarioNuevoRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Nachin\\source\\repos\\PruebaTecnicaIgnacioCasado\\Models\\DTOs\\Request\\UsuarioNuevoRequest.cs",
+              "RelativeDocumentMoniker": "Models\\DTOs\\Request\\UsuarioNuevoRequest.cs",
+              "ToolTip": "C:\\Users\\Nachin\\source\\repos\\PruebaTecnicaIgnacioCasado\\Models\\DTOs\\Request\\UsuarioNuevoRequest.cs",
+              "RelativeToolTip": "Models\\DTOs\\Request\\UsuarioNuevoRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-19T22:39:31.117Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "NuevoRolRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Nachin\\source\\repos\\PruebaTecnicaIgnacioCasado\\Models\\DTOs\\Request\\NuevoRolRequest.cs",
+              "RelativeDocumentMoniker": "Models\\DTOs\\Request\\NuevoRolRequest.cs",
+              "ToolTip": "C:\\Users\\Nachin\\source\\repos\\PruebaTecnicaIgnacioCasado\\Models\\DTOs\\Request\\NuevoRolRequest.cs",
+              "RelativeToolTip": "Models\\DTOs\\Request\\NuevoRolRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T13:18:26.334Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "InscripcionCursoRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Nachin\\source\\repos\\PruebaTecnicaIgnacioCasado\\Models\\DTOs\\Request\\InscripcionCursoRequest.cs",
+              "RelativeDocumentMoniker": "Models\\DTOs\\Request\\InscripcionCursoRequest.cs",
+              "ToolTip": "C:\\Users\\Nachin\\source\\repos\\PruebaTecnicaIgnacioCasado\\Models\\DTOs\\Request\\InscripcionCursoRequest.cs",
+              "RelativeToolTip": "Models\\DTOs\\Request\\InscripcionCursoRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T12:05:46.78Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "CursoNuevoRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Nachin\\source\\repos\\PruebaTecnicaIgnacioCasado\\Models\\DTOs\\Request\\CursoNuevoRequest.cs",
+              "RelativeDocumentMoniker": "Models\\DTOs\\Request\\CursoNuevoRequest.cs",
+              "ToolTip": "C:\\Users\\Nachin\\source\\repos\\PruebaTecnicaIgnacioCasado\\Models\\DTOs\\Request\\CursoNuevoRequest.cs",
+              "RelativeToolTip": "Models\\DTOs\\Request\\CursoNuevoRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T11:56:17.433Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "CursoController.cs",
+              "DocumentMoniker": "C:\\Users\\Nachin\\source\\repos\\PruebaTecnicaIgnacioCasado\\Controllers\\CursoController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CursoController.cs",
+              "ToolTip": "C:\\Users\\Nachin\\source\\repos\\PruebaTecnicaIgnacioCasado\\Controllers\\CursoController.cs",
+              "RelativeToolTip": "Controllers\\CursoController.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAwwAgAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T12:50:24.749Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "UsuarioController.cs",
+              "DocumentMoniker": "C:\\Users\\Nachin\\source\\repos\\PruebaTecnicaIgnacioCasado\\Controllers\\UsuarioController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UsuarioController.cs",
+              "ToolTip": "C:\\Users\\Nachin\\source\\repos\\PruebaTecnicaIgnacioCasado\\Controllers\\UsuarioController.cs",
+              "RelativeToolTip": "Controllers\\UsuarioController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEcAAABhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T00:17:52.586Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "RolController.cs",
+              "DocumentMoniker": "C:\\Users\\Nachin\\source\\repos\\PruebaTecnicaIgnacioCasado\\Controllers\\RolController.cs",
+              "RelativeDocumentMoniker": "Controllers\\RolController.cs",
+              "ToolTip": "C:\\Users\\Nachin\\source\\repos\\PruebaTecnicaIgnacioCasado\\Controllers\\RolController.cs",
+              "RelativeToolTip": "Controllers\\RolController.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAwwCIAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T13:25:44.166Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "IUsuarioRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Nachin\\source\\repos\\PruebaTecnicaIgnacioCasado\\Repositories\\Interfaces\\IUsuarioRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Interfaces\\IUsuarioRepository.cs",
+              "ToolTip": "C:\\Users\\Nachin\\source\\repos\\PruebaTecnicaIgnacioCasado\\Repositories\\Interfaces\\IUsuarioRepository.cs",
+              "RelativeToolTip": "Repositories\\Interfaces\\IUsuarioRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-19T00:45:24.292Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Nachin\\source\\repos\\PruebaTecnicaIgnacioCasado\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\Nachin\\source\\repos\\PruebaTecnicaIgnacioCasado\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-01-20T12:57:06.653Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Nachin\\source\\repos\\PruebaTecnicaIgnacioCasado\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\Nachin\\source\\repos\\PruebaTecnicaIgnacioCasado\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAUwCIAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-19T00:37:49.309Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "20260120001341_MigracionInicial.cs",
+              "DocumentMoniker": "C:\\Users\\Nachin\\source\\repos\\PruebaTecnicaIgnacioCasado\\Migrations\\20260120001341_MigracionInicial.cs",
+              "RelativeDocumentMoniker": "Migrations\\20260120001341_MigracionInicial.cs",
+              "ToolTip": "C:\\Users\\Nachin\\source\\repos\\PruebaTecnicaIgnacioCasado\\Migrations\\20260120001341_MigracionInicial.cs",
+              "RelativeToolTip": "Migrations\\20260120001341_MigracionInicial.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T00:13:41.595Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "PruebaTecnicaIgnacioCasado.http",
+              "DocumentMoniker": "C:\\Users\\Nachin\\source\\repos\\PruebaTecnicaIgnacioCasado\\PruebaTecnicaIgnacioCasado.http",
+              "RelativeDocumentMoniker": "PruebaTecnicaIgnacioCasado.http",
+              "ToolTip": "C:\\Users\\Nachin\\source\\repos\\PruebaTecnicaIgnacioCasado\\PruebaTecnicaIgnacioCasado.http",
+              "RelativeToolTip": "PruebaTecnicaIgnacioCasado.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2026-01-20T00:01:04.631Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 131,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GetAllUsuarios.cs",
+              "DocumentMoniker": "C:\\Users\\Nachin\\source\\repos\\PruebaTecnicaIgnacioCasado\\Models\\DTOs\\Response\\GetAllUsuarios.cs",
+              "RelativeDocumentMoniker": "Models\\DTOs\\Response\\GetAllUsuarios.cs",
+              "ToolTip": "C:\\Users\\Nachin\\source\\repos\\PruebaTecnicaIgnacioCasado\\Models\\DTOs\\Response\\GetAllUsuarios.cs",
+              "RelativeToolTip": "Models\\DTOs\\Response\\GetAllUsuarios.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-19T22:44:33.427Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
